@@ -1,0 +1,139 @@
+;; gu-phonetic-oguj.mim -- Gujarati input method for phonetic layout
+
+;; This method is developed for opengujarat distribution with rupee symbol.This file is licensed under GPL3.
+
+(input-method gu phonetic-oguj)
+
+(description "Gujarati input method for phonetic layout.
+
+Key Summary:
+1. ત્ર : ^
+                This can also be typed as a sequence of following:
+                                ત + ્  + ર i.e. t + f + r
+
+2. ક્ષ : X
+                This can also be typed as a sequence of following:
+                                ક + ્  + ષ i.e. k + f + x 
+
+3. શ્ર : *
+                This can also be typed as a sequence of following:
+                                શ + ્  + ર i.e. S + f + r
+
+Author: Jatin Nansi <jnansi@redhat.com>
+Key Summary: Ankitkumar Rameshchandra Patel <ankit@redhat.com>
+")
+
+(title "ક")
+
+(map
+ (trans
+ 
+  ((KP_1) "૧")
+  ((KP_2) "૨")
+  ((KP_3) "૩")
+  ((KP_4) "૪")
+  ((KP_5) "૫")
+  ((KP_6) "૬")
+  ((KP_7) "૭")
+  ((KP_8) "૮")
+  ((KP_9) "૯")
+  ((KP_0) "૦")
+  ((KP_Decimal) ".")
+  ((KP_Divide) "/")
+  ((KP_Multiply) "*")
+  ((KP_Add) "+")
+  ((KP_Subtract) "-") 
+ 
+  ("~" ?ઍ)
+  ("`" ?ૅ)
+  ("!" ?!)
+  ("1" ?૧)
+  ("@" ?@)
+  ("2" ?૨)
+  ("#" ?#)
+  ("3" ?૩)
+  ("$" ?₹)
+  ("4" ?૪)
+  ("5" ?૫)
+  ("6" ?૬)
+  ("7" ?૭)
+  ("8" ?૮)
+  ("(" ?()
+  ("9" ?૯)
+  (")" ?))
+  ("0" ?૦)
+  ("_" ?_)
+  ("-" ?-)
+  ("+" ?+)
+  ("=" ?=)
+  ("Q" "શ્ર")
+  ("q" ?ૐ)
+  ("Th" ?ઠ)
+  ("T" ?ટ)
+  ("E" ?ૈ)
+  ("e" ?ે)
+  ("R" ?ૃ)
+  ("r" ?ર)
+  ("th" ?થ)
+  ("t" ?ત)
+  ("Y" ?ય઼)
+  ("y" ?ય)
+  ("U" ?ૂ)
+  ("u" ?ુ)
+  ("I" ?ી)
+  ("i" ?િ)
+  ("O" ?ૌ)
+  ("o" ?ો)
+  ("P" ?ફ)
+  ("p" ?પ)
+  ("Dh" ?ઢ)
+  ("D" ?ડ)
+  ("A" ?અ)
+  ("aa" ?આ)
+  ("a" ?ા)
+  ("sh" ?શ)
+  ("s" ?સ)
+  ("dh" ?ધ)
+  ("d" ?દ)
+  ("f" ?્)
+  ("gh" ?ઘ)
+  ("g" ?ગ)
+  ("H" ?ઃ)
+  ("h" ?હ)
+  ("J" ?ઝ)
+  ("j" ?જ)
+  ("K" ?ખ)
+  ("k" ?ક)
+  ("L" ?ળ)
+  ("l" ?લ)
+  ("W" ?ઈ)
+  ("w" ?ઇ)
+  ("X" ?ઊ)
+  ("XX" ?ઉ)
+  ("|" ?ઑ)
+  ("\\" ?ૉ)
+  ("Z" ?ઁ)
+  ("z" ?ઙ)
+  ("Sh" ?ષ)
+  ("C" ?છ)
+  ("c" ?ચ)
+  ("V" ?ઽ)
+  ("v" ?વ)
+  ("bh" ?ભ)
+  ("b" ?બ)
+  ("N" ?ણ)
+  ("n" ?ન)
+  ("M" ?ં)
+  ("m" ?મ)
+  ("," ?,)
+  (">" ?઼)
+  ("." ?.)
+  ("/" ?ર઼)
+  ("x" "ક્ષ")
+  ("gy" "જ્ઞ")
+  ("^" "ઋ")
+  ))
+ 
+(state
+  (init
+    (trans)))
