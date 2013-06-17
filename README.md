@@ -3,11 +3,11 @@ gujarati-keyboards
 
 Customized Keyboards for Gujarati language with IBus 
 
-Supported Operating Systems : Debian,Ubuntu,Fedora,Arch Linux and other linux distributions
+**Supported Operating Systems** : Debian,Ubuntu,Fedora,Arch Linux and other linux distributions
 
-Supported Fonts : Aakar,Padmaa,Samyak,Raghu,Rekha,Lohit Gujarati and Other Gujarati Unicode fonts.
+**Supported Fonts** : Aakar,Padmaa,Samyak,Raghu,Rekha,Lohit Gujarati and Other Gujarati Unicode fonts.
 
-Current Status : Beta 
+**Current Status** : Beta 
 
 ###Dependencies
 Please install m17n package using following command.
