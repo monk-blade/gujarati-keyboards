@@ -127,6 +127,9 @@ For the detail of ITRANS, see the page:
 
  (dependent
   (" " (delete @-) " ")
+  (":" (delete @-) ":")
+  ("," (delete @-) ",")
+  ("." (delete @-) ".")
   ("a" (delete @-) "")
   ("aa" (delete @-) "ા")
   ("A" (delete @-) "ા")
