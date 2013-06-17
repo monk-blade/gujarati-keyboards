@@ -66,7 +66,8 @@ For the detail of ITRANS, see the page:
   ("s" "સ્")
   ("h" "હ્")
   ("j~n" "જ્ઞ્")
-  ("Gy" "જ્ઞ્")
+  ("GY" "જ્ઞ્")
+  ("dny" "જ્ઞ્")			; not in ITRANS Gujarati table
   ("x" "ક્ષ્"))
 
  (independent
@@ -126,7 +127,6 @@ For the detail of ITRANS, see the page:
   ((C-@) "‍"))				; not in ITRANS Gujarati table
 
  (dependent
-  (" " (delete @-) " ")
   ("a" (delete @-) "")
   ("aa" (delete @-) "ા")
   ("A" (delete @-) "ા")
