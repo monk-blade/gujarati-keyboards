@@ -12,7 +12,7 @@ Customized Keyboards for Gujarati language with IBus
 ###Dependencies
 Please install m17n package using following command.
 
-> sudo apt-get install m17n
+> sudo apt-get install ibus-m17n
 
 (Above command is for Ubuntu and other Debian based operating system)
 
